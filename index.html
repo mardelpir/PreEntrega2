@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h3> Calculadora de Impuestos Argentina</h3>
+        <h4>Para compras en el exterior con tarjeta</h4>
+        <form name="calculadora" id="calculadora">
+            <table>
+                    <tr><th>
+                    <label>Valor del Producto: </label>
+                    </th>
+                    <th scope="row">
+                    <div align="left">
+                        <label><span>$</span></label>
+                        <input name="precio" type="text" id="precio" size="10">
+                    </div>
+                    </th>
+
+                    <tr><th>
+                    <label>Cantidad:</label>
+                    </th>
+                    <th scope="row">
+                    <div align="left">
+                        <label><span>#</span></label>
+                        <input name="cantidad" type="text" id="cantidad" size="10">
+                    </div>
+                    </th>
+         
+                    <tr><th>
+                    <label>Subtotal:</label>
+                    </th>
+                    <th scope="row">   
+                    <div align="left">
+                        <label>$</label>
+                        <input name="subtotal" type="text" id="subtotal"  size="10">
+                        <input name="subBtn" type="button" id="subBtn" value="Subtotal">
+                    </div>
+                    </th>
+                    </tr>
+          
+                    <tr><th>
+                    <label>Impuesto:</label>
+                    </th>
+                    <th scope="row">
+                    <div align="left">
+                        <label>$</label>
+                        <input name="impuesto" type="text" id="impuesto" size="10">            
+                        <input name="taxBtn"  type="button" id="taxBtn" value="Impuesto">  
+                    </div>
+                    </th>
+                    </tr>
+         
+                    <tr><th>
+                    <label>Total:</label>
+                    </th>
+                    <th scope="row">
+                    <div align="left">
+                        <label>$</label>
+                        <input name="total" type="text" id="total" size="10">
+                        <input name="totalBtn" type="button" id="totalBtn" value="Calcular Total">
+                    </div>
+                    </th>
+                    </tr>
+            </table>
+        </form>      
+    </center>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
